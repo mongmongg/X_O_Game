@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --color-theme-900: rgb(11, 10, 23);
+  --color-theme-700: rgb(20, 18, 42);
+  --color-theme-500: rgb(46, 42, 82);
+  --color-theme-700-dim: rgba(20, 18, 42, 0.818);
+  --color-theme-900-dim: rgba(11, 10, 23, 0.929);
+
+  /* FONT */
+  --color-theme-300: rgb(138, 134, 184);
+  --color-theme-100: rgb(242, 240, 255);
+  /* TITLE */
+  --color-yellow: #ffd23f;
+  --color-yellow-dim: rgb(108, 88, 24);
+  --color-orange: rgb(255, 181, 63);
+  --color-orange-dim: rgb(172, 122, 42);
+
+  --color-cyan: rgb(77, 255, 240);
+  --color-cyan-dim: rgb(31, 122, 114);
+  --color-margenta: rgb(255, 77, 158);
+  --color-margenta-dim: rgb(138, 42, 91);
+
+  --bold: 900;
+  --semi-bold: 700;
+
+  --game-icon: 5rem;
+
+  --font-large: 2.5rem;
+  --font-medium: 1.5rem;
+  --font-small: 1rem;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+}
+html {
+  font-family: "Geist Pixel", sans-serif;
+  background-image: url("/aurora-gradient-1790179294440.webp");
+  letter-spacing: 1px;
+}
+body {
+  margin: 0;
+  color: var(--color-theme-300);
+  font-size: var(--font-small);
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+#score-container li.active {
+  border-color: var(--color-theme-300);
+  background-color: var(--color-theme-500);
+  box-shadow: 0px 0px 10px var(--color-theme-500);
+}

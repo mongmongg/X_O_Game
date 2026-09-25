@@ -1,0 +1,47 @@
+.player-container {
+  text-align: center;
+  background-color: var(--color-theme-900);
+  border: 3px solid var(--color-theme-500);
+  width: 8rem;
+  padding: var(--space-1);
+  text-transform: uppercase;
+}
+.player-input {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  background-color: var(--color-theme-700-dim);
+  color: inherit;
+  border: none;
+  text-transform: uppercase;
+  width: 100%;
+  font: inherit;
+  text-align: center;
+}
+input:focus {
+  background-color: var(--color-theme-500);
+  border: 1px solid var(--color-theme-300);
+  outline: none;
+}
+.player-name {
+  margin-right: var(--space-1);
+}
+.score {
+  font-size: var(--font-medium);
+  color: var(--color-theme-100);
+  font-weight: var(--bold);
+  margin: 0;
+}
+h3 {
+  font-size: var(--font-small);
+}
+.x {
+  color: var(--color-cyan);
+}
+
+.o {
+  color: var(--color-margenta);
+}

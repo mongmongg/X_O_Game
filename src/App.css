@@ -1,0 +1,13 @@
+#panel {
+    background-color: var(--color-theme-700);
+    border: 10px double var(--color-theme-500);
+    width: 30rem;
+    margin: 3rem auto;
+    box-shadow: 1px 1px 1rem var(--color-theme-700);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-4) var(--space-2);
+  }
+  

@@ -1,0 +1,39 @@
+#turn {
+  text-transform: uppercase;
+}
+#board {
+  margin: var(--space-3);
+  line-height: 0;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  margin: 0;
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-theme-900);
+  border: 3px solid var(--color-theme-500);
+  font-size: var(--font-large);
+}
+.box:hover {
+  background-color: var(--color-theme-700);
+}
+.overlay {
+  background-color: var(--color-theme-900-dim);
+  box-shadow: 1px 1px 10px var(--color-yellow-dim);
+  border: 3px solid var(--color-yellow);
+  position: absolute;
+  width: 18rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-4);
+}
+.overlay h2 {
+  color: var(--color-yellow);
+  text-transform: uppercase;
+}
